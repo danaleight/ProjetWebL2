@@ -3,13 +3,15 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Share My House</title>
-		<link rel="stylesheet" href="css/general.css">
+		<link rel="stylesheet" href="./stylecss/general.css">
 	</head>
 	<body>
 		<header>
 			<div class="banner-top">
 				<a href="index.php"><img class="logo logo-img" alt="website-logo" title="page d'accueil" src="ressources/logo.png" width="48" height="48"></a>
-				<a class="button" href="">Louer votre bien</a>
+				<div class="button">
+					<a class="button" href="">Louer votre bien</a>
+				</div>
 				<a href=""><img class="logo-img" src="ressources/search.jpg" width="48" heigh="48"></a>
 			</div>
 			<div class="banner-bot">
@@ -17,8 +19,8 @@
 					<div class="form-destination">
 						<h3>Destination</h3>
 						<input type="text" name="user_destination" placeholder="Où voulez-vous aller ?">
-					</div class="form-arrival">
-					<div>
+					</div>
+					<div class="form-arrival">
 						<h3>Arrivée</h3>
 						<input type="date" name="user_arrival" placeholder="Quand arrivez-vous ?">
 					</div>
